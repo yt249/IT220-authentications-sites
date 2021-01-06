@@ -14,16 +14,16 @@ captcha-verify.php: verify the captcha entered by the user with the true captcha
 
 ### 2. Second autentication + HTML form
 auth-sticky.php: <div>
-  gatekeeper checking if the user pass the captcha challenge + <div>
-  connect to SQL + <div>
-  validate the grammar(REGEX) of ucid, password, acount, and delay + <div>
-  authenticate ucid and password, whether match with SQL + <div>
-  a html form below for user input 
+ - gatekeeper checking if the user pass the captcha challenge + <div>
+ - connect to SQL + <div>
+ - validate the grammar(REGEX) of ucid, password, acount, and delay + <div>
+ - authenticate ucid and password, whether match with SQL + <div>
+ - a html form below for user input 
 
 ### 3. Pin challenge
 pin1.php: produce random pin and email to the user by fetching the email address in the database <div>
 pin2.php: verify the pin entered by the user with the true pin
 
-### 4. 
+### 4. User Interface for modifying the data in database
 service1.php: provide a HTML form with dropdown menu <div>
 service2.php: execute different options chosen by the user using built functions
